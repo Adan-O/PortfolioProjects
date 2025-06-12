@@ -2,11 +2,8 @@ Select *
 From PortfolioProject..CovidDeaths
 order by 3,4
 
---Select *
---From PortfolioProject..CovidVaccinations
---order by 3,4
 
--- Select Data we are going to be using (Omit at end)
+-- Select Data we are going to be using
 Select location, date, total_cases, new_cases, total_deaths, population
 From PortfolioProject..CovidDeaths
 order by 1,2
